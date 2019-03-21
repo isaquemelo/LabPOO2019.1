@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 public class CatalogoLivros {
     private List<Livro> livros = new ArrayList<Livro>();
@@ -32,7 +31,6 @@ public class CatalogoLivros {
 
 
     }
-
 
     public ArrayList<Livro> getLivros(){
         return (ArrayList<Livro>) this.livros;
